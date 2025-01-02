@@ -1,8 +1,9 @@
-import { Main } from "next/document";
+import Main from "@/components/Main";
 
 export default function Home() {
   return (
-      <Main>
-      </Main>
+    <Main>
+      landing page
+    </Main>
   );
-}
+} 

@@ -1,3 +1,4 @@
+import Main from "@/components/Main";
 
 export const metadata = {
     title: "Hello World · Admin",
@@ -5,6 +6,6 @@ export const metadata = {
 
 export default function AdminPage () {
     return (
-        <div>hello</div>
+        <Main>admin dashboard</Main>
     )
 }
