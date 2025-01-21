@@ -1,5 +1,6 @@
 import { Fugaz_One } from 'next/font/google';
 import React from 'react'
+import Button from './Button';
 
 const fugaz = Fugaz_One({ subsets: ["latin"], weight: ['400']});
 
@@ -16,6 +17,10 @@ export default function Hero() {
           Create your mood record and view past <span className='font-semibold'> mood data </span>
       </p>
       
+      <div className='grid grid-cols-2 gap-4 w-fit mx-auto'>
+          <Button text="Sign Up"/>
+          <Button text="Login" dark/>
+      </div>
     </div>
   )
 }
